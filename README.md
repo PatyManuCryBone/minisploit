@@ -16,11 +16,11 @@ Installazione:
 https://github.com/PatyManuCryBone/minisploit
 
 Se usate zshrc:
-chmod +x cartella/contenente/mini-metasploit2.py
+chmod +x cartella/contenente/minisploit.py
 nano ~/.zshrc
 
 in fondo a tutto scrivere
-alias minisploit="cartella/contenente/mini-metasploit2.py"
+alias minisploit="cartella/contenente/minisploit.py"
 
 poi
 source ~/.zshrc
