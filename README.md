@@ -13,3 +13,18 @@ Progettato per gli appassionati di sicurezza (a scopo didattico e di testing leg
 MiniSploit mira a essere uno strumento rapido ed efficiente, ideale per chi vuole studiare e mettere in pratica i concetti di Ethical Hacking. Dai un'occhiata alle istruzioni per iniziare subito il tuo test! 🚀
 
 Installazione: 
+https://github.com/PatyManuCryBone/minisploit
+
+Se usate zshrc:
+chmod +x cartella/contenente/mini-metasploit2.py
+nano ~/.zshrc
+
+in fondo a tutto scrivere
+alias minisploit="cartella/contenente/mini-metasploit2.py"
+
+poi
+source ~/.zshrc
+
+Avviare MiniSploit da riga di comando
+minisploit
+
