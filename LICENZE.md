@@ -25,7 +25,7 @@ SOFTWARE.
 
 
 ---
-### Traduzione non ufficiale e non vincolante in Italiano
+### Traduzione in Italiano ###
 
 Licenza MIT
 
