@@ -1,13 +1,3 @@
-time
-sys
-subprocess
-socket
-os
-readline
-random
-threading 
 pyfiglet
-cmd
-queue
 paramiko
 requests
