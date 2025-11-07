@@ -2,7 +2,7 @@ MiniSploit è un framework compatto, versatile e potente, interamente sviluppato
 
 Progettato per gli appassionati di sicurezza (a scopo didattico e di testing legale!), offre una suite completa di moduli per ogni esigenza:
 
-    🛡️ Attacchi e Sfruttamento: Moduli per l'esecuzione di attacchi DoS (Denial of Service) e la generazione/gestione di Reverse Shell per ottenere accesso remoto.
+    🛡️ Attacchi e Sfruttamento: Moduli per l'esecuzione di attacchi DoS (Denial of Service) e la gestione di Reverse Shell per ottenere accesso remoto.
 
     🌐 Network Intrusion: Funzionalità avanzate come Man-in-the-Middle (MiTM) per l'analisi del traffico di rete.
 
@@ -13,18 +13,30 @@ Progettato per gli appassionati di sicurezza (a scopo didattico e di testing leg
 MiniSploit mira a essere uno strumento rapido ed efficiente, ideale per chi vuole studiare e mettere in pratica i concetti di Ethical Hacking. Dai un'occhiata alle istruzioni per iniziare subito il tuo test! 🚀
 
 Installazione: 
-https://github.com/PatyManuCryBone/minisploit
+git clone https://github.com/PatyManuCryBone/minisploit 
 
-Se usate zshrc:
-chmod +x cartella/contenente/minisploit.py
+INSTALLAZIONE DELLE DIPENDENZE:
+pip install -r requirements.txt
+
+AVVIO DIRETTO:
+python minisploit.py
+
+CONFIGURAZIONE ALIAS(CONSIGLIATO)
+# Rendi lo script eseguibile
+chmod +x /percorso/completo/a/minisploit.py
+
+# Apri il file di configurazione zshrc
 nano ~/.zshrc
 
-in fondo a tutto scrivere
-alias minisploit="cartella/contenente/minisploit.py"
+# Incolla la riga seguente in fondo al file
+alias minisploit="/percorso/completo/a/minisploit.py"
 
-poi
+# Applica le modifiche
 source ~/.zshrc
 
-Avviare MiniSploit da riga di comando
-minisploit
+USARE QUESTO SCRIPT SOLO A SCOPO EDUCATIVO ED ETICO.
+
+Avviso Legale ed Etico:
+
+Gli sviluppatori non sono responsabili per eventuali danni o abusi derivanti dall'uso di questo strumento.
 
