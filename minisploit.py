@@ -1418,7 +1418,7 @@ def net():
         cmd = input(f"(MiniSploit)/\033[4mnet > \033[0m")
         
         if cmd.startswith("port"):
-            port = cmd.split()[1]
+            port = int(cmd.split()[1])
             
         elif cmd == "help":
             print(f"""
@@ -1438,7 +1438,7 @@ HOST = {target}
             
         elif cmd == "start":
             try:
-                comando = f"/home/kali/Scrivania/FULL/Malware/ATTACK/./net -lvnp {port}"
+                comando = f"script/./net -lvnp {port}"
                 subprocess.run(comando, shell=True)
             except Exception as e:
                 print("Error: {e}")
